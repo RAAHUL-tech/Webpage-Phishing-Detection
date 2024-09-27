@@ -1,0 +1,12 @@
+data:
+  train_path: data/train.csv
+  test_path: data/test.csv
+  future_path: data/latest.csv
+
+
+model:
+  name: DecisionTreeClassifier
+  params:
+    criterion: entropy
+    max_depth: null
+  store_path: models/
